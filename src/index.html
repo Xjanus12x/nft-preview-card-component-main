@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+    <main>
+      <section class="card">
+        <figure class="card__img">
+          <img src="./assets/image-equilibrium.jpg" alt="Equilibrium" />
+          <figure class="card__img--view">
+            <img src="./assets/icon-view.svg" alt="view icon" />
+          </figure>
+        </figure>
+
+        <h3 class="card__title">Equilibrium #3429</h3>
+        <p class="card__description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+
+        <div class="wrapper">
+          <div class="card__price">
+            <figure>
+              <img src="./assets/icon-ethereum.svg" alt="etherum icon" />
+            </figure>
+            <p>0.041ETH</p>
+          </div>
+
+          <div class="card__time-span">
+            <img src="./assets/icon-clock.svg" alt="clock icon" />
+            <span>3 days left</span>
+          </div>
+        </div>
+
+        <figure class="card__hero">
+          <img src="./assets/image-avatar.png" alt="atavar" />
+          <div class="card__hero--author">
+            <p>
+              <span>Creation of</span>
+
+              <span>Jules Wyvern</span>
+            </p>
+          </div>
+        </figure>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">xjanus12x</a>.
+    </div>
+  </body>
+</html>
